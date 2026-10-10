@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VibeKut - Conecte-se com sua Vibe</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f2f5;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(135deg, #833ab4, #fd1d1d, #fcb045);
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        header p {
+            margin: 5px 0 0;
+            font-size: 14px;
+            opacity: 0.9;
+        }
+        .container {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 0 15px;
+        }
+        .card {
+            background: white;
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 15px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .card h3 {
+            margin-top: 0;
+            color: #833ab4;
+        }
+        .btn {
+            background-color: #833ab4;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        .btn:hover {
+            opacity: 0.9;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>VibeKut 🌐</h1>
+        <p>O melhor do Orkut, Facebook e Instagram em um só lugar</p>
+    </header>
+
+    <div class="container">
+        <div class="card">
+            <h3>Bem-vindo ao VibeKut!</h3>
+            <p>Este é o protótipo da nossa nova rede social. Em breve teremos mural de recados, comunidades e stories!</p>
+            <button class="btn" onclick="alert('Perfil curtido com sucesso! ❤️')">Curtir Vibe</button>
+        </div>
+
+        <div class="card">
+            <h3>Comunidades em Destaque</h3>
+            <p>🔥 Amantes de Programação</p>
+            <p>☕ Café & Código</p>
+            <p>🎮 Nostalgia Anos 2000</p>
+        </div>
+    </div>
+
+</body>
+</html>
